@@ -1,0 +1,20 @@
+body {
+    top: 0;
+    left: 0;
+    width: 98%;
+    height: 98%;
+    position: absolute;
+    display: table;
+    overflow: hidden;
+}
+
+p {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center
+}
+
+img {
+    width: 250px;
+    cursor: pointer;
+}

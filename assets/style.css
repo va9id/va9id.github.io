@@ -1,20 +1,58 @@
 body {
-    top: 0;
+    background-image: url("/assets//imgs/windows.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.apps {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0px 15px 10px;
+    text-shadow: 2px 2px 5px black;
+    width: 50px;
+}
+
+.apps img {
+    display: block;
+    width: 50px;
+    height: 50%;
+    padding-bottom: 10px;
+}
+
+.menu-bar {
+    position: fixed;
+    bottom: 0;
     left: 0;
-    width: 98%;
-    height: 98%;
-    position: absolute;
-    display: table;
-    overflow: hidden;
+    width: 100%;
+    height: 35px;
+    background-color: #2375e3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-p {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center
+.menu-bar a {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-shadow: 2px 2px 12px black;
 }
 
-img {
-    width: 250px;
-    cursor: pointer;
+.menu-bar a:last-of-type {
+    padding-right: 1em;
+}
+
+#start {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 35px;
+    width: 125px;
 }

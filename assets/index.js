@@ -12,7 +12,7 @@ const cycleArt = () => {
     index = (index + 1) % images.length;
     localStorage.setItem("imageIndex", index);
 
-    document.getElementById("art").src = "assets/imgs/" + images[index];
+    document.getElementById("art").src = "/assets/imgs/" + images[index];
 }
 
 if (isV4) {
