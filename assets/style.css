@@ -3,6 +3,7 @@
 	--text-primary: rgb(60, 60, 60);
 	--text-secondary: rgb(120, 120, 120);
 	--accent: rgb(214, 241, 236);
+	--links: #a70b0b;
 }
 
 [data-theme="dark"] {
@@ -71,7 +72,7 @@ body {
 
 .section-title {
 	flex-grow: 0;
-	min-width: 40px;
+	min-width: 60px;
 	padding-right: 32px;
 	color: var(--text-secondary);
 }
@@ -81,11 +82,12 @@ body {
 }
 
 .styled-link {
-	color: transparent;
+	color: var(--links) !important; /*transparent;*/
 	text-decoration: none;
-	background-color: var(--accent);
+	/*background-color: var(--accent);*/
 }
 
+/*
 .company1:hover {
 	transition: 400ms;
 	background-color: rgb(60, 126, 184);
@@ -110,3 +112,4 @@ body {
 	transition: 400ms;
 	background-color: rgb(206, 116, 206);
 }
+*/
