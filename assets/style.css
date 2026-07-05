@@ -1,23 +1,16 @@
 :root {
-	--background: white;
-	--text-primary: rgb(60, 60, 60);
-	--text-secondary: rgb(120, 120, 120);
-	--accent: rgb(214, 241, 236);
-	--links: #a70b0b;
-}
-
-[data-theme="dark"] {
 	--background: rgb(30, 30, 30);
 	--text-primary: white;
 	--text-secondary: rgb(200, 200, 200);
 	--accent: rgb(42, 63, 58);
+	--links: #a70b0b;
 }
 
 body {
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-		Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
-		sans-serif;
+	font-family:
+		-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+		Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 .main {
@@ -82,34 +75,6 @@ body {
 }
 
 .styled-link {
-	color: var(--links) !important; /*transparent;*/
+	color: var(--links) !important;
 	text-decoration: none;
-	/*background-color: var(--accent);*/
 }
-
-/*
-.company1:hover {
-	transition: 400ms;
-	background-color: rgb(60, 126, 184);
-}
-
-.company2:hover {
-	transition: 400ms;
-	background-color: rgb(17, 33, 136);
-}
-
-.company3:hover {
-	transition: 400ms;
-	background-color: rgb(83, 118, 230);
-}
-
-.company4:hover {
-	transition: 400ms;
-	background-color: rgb(43, 156, 109);
-}
-
-.company5:hover {
-	transition: 400ms;
-	background-color: rgb(206, 116, 206);
-}
-*/
