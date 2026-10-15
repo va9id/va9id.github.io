@@ -31,8 +31,9 @@ main {
 	opacity: 0.6;
 }
 
-.social-links i {
-	font-size: 44px;
+.social-links svg {
+	width: 44px;
+	height: 44px;
 }
 
 @media (prefers-color-scheme: dark) {
